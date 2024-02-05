@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F05D5E;
+    height: 100vh;
+    padding-left: 1vh;
+
+}
+
+nav {
+    position: sticky;
+
+    display: inline-block;
+}
+
+body,
+html {
+
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #272932;
+    overflow: hidden;
+}
+
+
+
+.logo {
+    padding-top: 2vh;
+    padding-left: 1vh;
+}
+
+.menu-item {
+    padding-top: 2vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    padding-bottom: 2vh;
+    color: #E7ECEF;
+    font-size: 2vh;
+    text-decoration: none;
+}
+
+.main {
+    display: inline-block;
+    height: 100vh;
+    width: 90%;
+    position: absolute;
+    margin-left: 2vh;
+
+}
+
+.main-center {
+    display: inline-block;
+    height: 100vh;
+    width: 90%;
+    position: absolute;
+    margin-left: 14vh;
+
+}
+
+.create {
+
+    width: 200px;
+    height: 60px;
+    margin: auto;
+    margin-top: 4vh;
+    display: block;
+    font-size: 2vh;
+    background-color: #e7ecef;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.create:hover {
+    background-color: #0f7173;
+    color: #e7ecef;
+    cursor: pointer;
+    scale: 1.02;
+}
+
+.new {
+    margin-top: 16vh;
+    margin-left: 2vh;
+    color: #e7ecef;
+    font-size: 2vh;
+}
+
+.card {
+    width: 35vh;
+    height: 25vh;
+    margin-top: 4vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    display: block;
+    font-size: 2vh;
+    background-color: #d8a47f;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    padding-top: 2vh;
+    color: #272932;
+    text-decoration: none;
+}
+
+.card-title {
+    display: inline-block;
+    font-size: 3vh;
+
+
+}
+
+.card-description {
+    display: inline-block;
+    margin-left: 4vh;
+    float: left;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.first_things {
+    color: white;
+    margin-top: 8vh;
+    font-size: 7vh;
+}
+
+.first_things_container {
+    margin-left: 8vh;
+}
+
+.firstquiz_label {
+    color: white;
+    font-size: 3vh;
+}
+
+.firstquiz_text {
+    border-radius: 15px;
+    border: none;
+    width: 40vh;
+    height: 3vh;
+    padding: 1vh;
+    background-color: #d8a47f;
+}
+
+.firstquiz_submit {
+    border-radius: 15px;
+    border: none;
+    width: 40vh;
+    height: 6vh;
+    padding: 1vh;
+    background-color: #E7ECEF;
+}
+
+.firstquiz_submit:hover {
+    background-color: #0f7173;
+    color: #e7ecef;
+    cursor: pointer;
+    scale: 1.02;
+}
+
+.firstquiz_text:hover {
+    scale: 1.05;
+}
+
+
+::placeholder {
+    color: black;
+}
+
+.hero-img {
+
+    position: absolute;
+    right: 50vh;
+    top: 12vh;
+}
+
+.login_div {
+    margin-bottom: 2vh;
+}
+
+.login,
+.signup {
+    border-radius: 15px;
+    border: none;
+    width: 8vh;
+    height: 3vh;
+    padding: 1vh;
+    background-color: #E7ECEF;
+}
+
+
+.login_label {
+    color: white;
+    font-size: 3vh;
+}
+
+.login_text {
+    border-radius: 15px;
+    border: none;
+    width: 40vh;
+    height: 3vh;
+    padding: 1vh;
+    background-color: #d8a47f;
+}
+
+.login_submit {
+    border-radius: 15px;
+    border: none;
+    width: 40vh;
+    height: 6vh;
+    padding: 1vh;
+    background-color: #E7ECEF;
+}
+
+.login_submit:hover {
+    background-color: #0f7173;
+    color: #e7ecef;
+    cursor: pointer;
+    scale: 1.02;
+}
+
+.login_text:hover {
+    scale: 1.05;
+}
+
+.incorrect_pass {
+
+    color: red;
+    font-size: 3vh;
+}
+
+.manage-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.correct_answer {
+    color: white;
+}
